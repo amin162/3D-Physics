@@ -9,5 +9,5 @@ npm install --save three
 # vite
 npm install --save-dev vite
 
-#dat.GUI
+# dat.GUI
 npm install dat.gui --save

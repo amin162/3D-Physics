@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #collisionCounter { position: absolute; top: 50px; left: 10px; color: white; font-size: 20px; }
+        #blueMass { position: absolute; top: 30px; left: 10px; color: white; font-size: 20px; }
+        #redMass { position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; }
+     </style>
+    <title>Box Collision PI</title>
+</head>
+<body>
+    <div id="collisionCounter">Collisions: 0</div>
+    <div id="blueMass">Blue: 1 Kg</div>
+    <div id="redMass">Red: 1 kg</div>
+    <script src="/collision.js" type="module"></script>
+    <!-- <button id="playButton">Play Sound</button> -->
+    <audio id="sound" src="/mixkit-plastic-bubble-click-1124.wav"></audio>
+</body>
+</html>
